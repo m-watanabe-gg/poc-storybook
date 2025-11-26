@@ -1,26 +1,141 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* デザイントークンをCSS変数として定義 */
+@theme {
+	/* カラーパレット */
+	--color-primary: #297b50;
+	--color-secondary: #f9f7f0;
+	--color-tertiary: #cccccc;
+	--color-accent: #f44336;
+	--color-gray: #cccccc;
+	--color-background: #f4f4f4;
+	--color-border: #ccc;
+
+	/* ステートカラー */
+	--color-state-danger: #cc2919;
+	--color-state-warning: #cc9e12;
+	--color-state-info: #378da3;
+	--color-state-success: #13a83a;
+
+	/* SNSカラー */
+	--color-sns-line: #00b900;
+	--color-sns-facebook: #1877f2;
+	--color-sns-twitter: #1da1f2;
+	--color-sns-youtube: #da1725;
+
+	/* ブレークポイント */
+	--breakpoint-sm: 750px;
+	--breakpoint-md: 950px;
+	--breakpoint-lg: 1140px;
+	--breakpoint-xl: 1440px;
+
+	/* スペーシング */
+	--spacing-section-xlg: 120px;
+	--spacing-section-lg: 100px;
+	--spacing-section-md: 80px;
+	--spacing-section-sm: 64px;
+	--spacing-section-xs: 32px;
+
+	/* レイアウト */
+	--header-height: 100px;
+	--header-height-sp: 55px;
+	--grid-max-width: 1140px;
+
+	/* ボーダー */
+	--border-radius: 3px;
+	--border-width: 1px;
+
+	/* エフェクト */
+	--hover-opacity: 0.5;
+
+	/* フォント */
+	--font-family-base: var(--font-noto-sans-jp), sans-serif;
+	--font-family-heading: var(--font-montserrat), sans-serif;
+	--font-size-base: 16px;
+	--line-height-base: 1.8;
+	--letter-spacing-base: 0.02em;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* グローバルスタイル */
+@layer base {
+	html {
+		font-size: 16px;
+	}
+
+	body {
+		font-family: var(--font-family-base);
+		font-size: var(--font-size-base);
+		line-height: var(--line-height-base);
+		letter-spacing: var(--letter-spacing-base);
+		color: #111;
+		background-color: #fff;
+	}
+
+	/* 英語版のスタイル */
+	body.en {
+		font-family: var(--font-family-heading);
+		line-height: 1.6;
+		letter-spacing: 0;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: var(--font-family-heading);
+		font-weight: 700;
+		line-height: 1.2;
+		letter-spacing: -0.02em;
+	}
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* ユーティリティクラス */
+@layer utilities {
+	.container-custom {
+		max-width: var(--grid-max-width);
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 16px;
+		padding-right: 16px;
+	}
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+	@media (min-width: 750px) {
+		.container-custom {
+			padding-left: 32px;
+			padding-right: 32px;
+		}
+	}
+
+	.hover-opacity {
+		transition: opacity 0.3s ease;
+	}
+
+	.hover-opacity:hover {
+		opacity: var(--hover-opacity);
+	}
+
+	/* ヘッダー高さ - レスポンシブ対応 */
+	.h-header-sp,
+	.h-header {
+		height: var(--header-height-sp);
+	}
+
+	@media (min-width: 768px) {
+		.h-header {
+			height: var(--header-height);
+		}
+	}
+
+	.pt-header-sp,
+	.pt-header {
+		padding-top: var(--header-height-sp);
+	}
+
+	@media (min-width: 768px) {
+		.pt-header {
+			padding-top: var(--header-height);
+		}
+	}
+
+	/* グリッド幅 */
+	.max-w-grid {
+		max-width: var(--grid-max-width);
+	}
 }

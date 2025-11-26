@@ -1,0 +1,335 @@
+{
+  "common": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "news": "News",
+    "contact": "Contact",
+    "readMore": "Read More",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "close": "Close",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "notFound": "Page not found"
+  },
+  "nav": {
+    "menu": "Menu",
+    "languageSwitch": "日本語"
+  },
+  "home": {
+    "title": "Home",
+    "description": "Style guide based on GrowGroup design system",
+    "hero": {
+      "title": "Next.js Style Guide",
+      "subtitle": "Modern Website Building Solution"
+    },
+    "features": {
+      "title": "Key Features",
+      "componentManagement": {
+        "title": "Component Management",
+        "description": "Manage all components with Storybook. Significantly improve development efficiency."
+      },
+      "multilingual": {
+        "title": "Multilingual Support",
+        "description": "Complete multilingual support with next-intl. Easy global deployment."
+      },
+      "typescript": {
+        "title": "Full TypeScript Support",
+        "description": "Type-safe development environment. Prevent bugs and improve maintainability."
+      },
+      "modernStack": {
+        "title": "Modern Stack",
+        "description": "Adopting the latest technologies: Next.js 16, React 19, Tailwind CSS v4."
+      },
+      "fullstack": {
+        "title": "Full Stack Ready",
+        "description": "Backend API integration with Hono + Drizzle ORM."
+      },
+      "quality": {
+        "title": "Quality Management",
+        "description": "Maintain high-quality code with ESLint, Prettier, and Lighthouse CI."
+      }
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "Accelerate your business",
+      "viewAll": "View all services"
+    },
+    "news": {
+      "title": "Latest News",
+      "subtitle": "Announcements and updates",
+      "viewAll": "View all news"
+    },
+    "cases": {
+      "title": "Case Studies",
+      "subtitle": "Customer success stories",
+      "viewAll": "View all cases"
+    },
+    "cta": {
+      "title": "Get Started Now",
+      "description": "Everything you need for modern website development. Start by exploring our components.",
+      "components": "View Components",
+      "news": "View News"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Feel free to contact us",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "John Doe",
+      "email": "Email",
+      "emailPlaceholder": "example@example.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "Your inquiry",
+      "message": "Message",
+      "messagePlaceholder": "Please describe your inquiry",
+      "submit": "Submit",
+      "success": "Your message has been sent",
+      "error": "Failed to send message"
+    },
+    "validation": {
+      "nameRequired": "Name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address",
+      "subjectRequired": "Subject is required",
+      "messageRequired": "Message is required"
+    },
+    "info": {
+      "phone": {
+        "title": "Phone",
+        "value": "+81-3-1234-5678"
+      },
+      "email": {
+        "title": "Email",
+        "value": "info@example.com"
+      },
+      "address": {
+        "title": "Address",
+        "value": "1-1-1 Chiyoda, Chiyoda-ku, Tokyo 100-0001"
+      }
+    }
+  },
+  "news": {
+    "title": "News",
+    "description": "Latest news and updates",
+    "categories": "Categories",
+    "publishedAt": "Published",
+    "author": "Author",
+    "noArticles": "No articles found",
+    "allCategories": "All",
+    "readMore": "Read more",
+    "breadcrumb": {
+      "home": "Home"
+    }
+  },
+  "footer": {
+    "home": "Home",
+    "copyright": "© 2025 Sample Company All Rights Reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "GrowGroup's philosophy and history",
+    "subtitle": "ABOUT US",
+    "overview": {
+      "title": "Company Overview",
+      "companyName": "Company Name",
+      "companyNameValue": "Sample Company Inc.",
+      "established": "Established",
+      "establishedValue": "April 1, 2010",
+      "capital": "Capital",
+      "capitalValue": "10 million yen",
+      "ceo": "CEO",
+      "ceoValue": "Taro Yamada",
+      "employees": "Employees",
+      "employeesValue": "50",
+      "address": "Address",
+      "addressValue": "1-1-1 Chiyoda, Chiyoda-ku, Tokyo 100-0001",
+      "business": "Business",
+      "businessValue": "Web development, System development, Technical consulting, UI/UX design"
+    },
+    "history": {
+      "title": "Company History",
+      "subtitle": "Our Journey",
+      "items": {
+        "2010": "Founded Sample Company Inc. in Chiyoda-ku, Tokyo",
+        "2012": "Launched full-scale web development business",
+        "2015": "Opened Osaka branch",
+        "2018": "Started system development business",
+        "2020": "Reached 30 employees",
+        "2022": "Established UI/UX design department",
+        "2025": "Reached 50 employees, moved to new office"
+      }
+    },
+    "mission": {
+      "title": "Mission",
+      "content": "Our mission is to grow our clients' businesses through the power of innovative technology and design."
+    },
+    "vision": {
+      "title": "Vision",
+      "content": "We contribute to a better society through digital technology."
+    },
+    "values": {
+      "title": "Values",
+      "innovation": {
+        "title": "Innovation",
+        "description": "We constantly explore new technologies and methodologies to provide optimal solutions."
+      },
+      "quality": {
+        "title": "Commitment to Quality",
+        "description": "We pay attention to every detail and create high-quality products."
+      },
+      "partnership": {
+        "title": "Partnership",
+        "description": "We value trust with our customers and grow together."
+      }
+    },
+    "team": {
+      "title": "Our Team",
+      "subtitle": "Meet Our Members",
+      "description": "Experienced professionals support your projects.",
+      "members": {
+        "member1": {
+          "name": "Taro Yamada",
+          "position": "CEO",
+          "description": "15 years of experience in the web industry. Drives projects from both technical and business perspectives."
+        },
+        "member2": {
+          "name": "Hanako Sato",
+          "position": "CTO",
+          "description": "Leads the technical aspects, leveraging experience from major IT companies."
+        },
+        "member3": {
+          "name": "Ichiro Suzuki",
+          "position": "Design Director",
+          "description": "Provides designs with user experience as the top priority."
+        },
+        "member4": {
+          "name": "Misaki Tanaka",
+          "position": "Project Manager",
+          "description": "Supports smooth project progress."
+        }
+      }
+    },
+    "office": {
+      "title": "Office",
+      "subtitle": "Our Workplace",
+      "description": "We provide a creative environment in our office equipped with the latest facilities in Chiyoda-ku, Tokyo.",
+      "access": "Access",
+      "accessDescription": "3 minutes walk from Chiyoda Station on Tokyo Metro Chiyoda Line\n10 minutes walk from Tokyo Station on JR Sobu Line"
+    },
+    "cta": {
+      "title": "Let's Get Started",
+      "description": "Feel free to consult with us about your project",
+      "contact": "Contact Us",
+      "services": "View Services"
+    }
+  },
+  "services": {
+    "title": "Services",
+    "description": "Services we provide",
+    "subtitle": "SERVICES",
+    "webDevelopment": {
+      "title": "Web Development",
+      "description": "We create high-quality websites using modern technologies. With responsive design, SEO optimization, and accessibility-focused design, we provide the best user experience."
+    },
+    "systemDevelopment": {
+      "title": "System Development",
+      "description": "We develop custom systems to improve business efficiency. With cloud-native design, we build scalable and maintainable systems."
+    },
+    "consulting": {
+      "title": "Technical Consulting",
+      "description": "We provide consulting on DX promotion, technology selection, architecture design, and more. We propose optimal solutions for your business challenges."
+    },
+    "design": {
+      "title": "UI/UX Design",
+      "description": "We design user-friendly and beautiful interfaces with user-centered design. We support everything from user research to prototyping and design system development."
+    }
+  },
+  "cases": {
+    "title": "Case Studies",
+    "description": "Success stories from our customers",
+    "subtitle": "CASE STUDIES",
+    "filters": {
+      "industry": "Industry",
+      "product": "Products",
+      "challenge": "Challenges"
+    },
+    "industries": {
+      "broadcasting": "Broadcasting & Media",
+      "manufacturing": "Manufacturing",
+      "service": "Services",
+      "retail": "Retail",
+      "finance": "Finance",
+      "education": "Education",
+      "it": "IT",
+      "healthcare": "Healthcare",
+      "logistics": "Logistics"
+    },
+    "products": {
+      "systemA": "System A",
+      "systemB": "System B",
+      "systemC": "System C"
+    },
+    "challenges": {
+      "costReduction": "Cost Reduction",
+      "efficiency": "Efficiency",
+      "quality": "Quality Improvement",
+      "security": "Security"
+    },
+    "results": {
+      "showing": " cases found",
+      "noResults": "No cases found matching your criteria",
+      "viewDetail": "View Details"
+    },
+    "detail": {
+      "overview": "Implementation Overview",
+      "company": "Company",
+      "industry": "Industry",
+      "challenge": "Challenge",
+      "solution": "Solution",
+      "result": "Results",
+      "interview": "User Interview",
+      "gallery": "Project Gallery",
+      "relatedCases": "Related Case Studies",
+      "viewAllCases": "View All Cases",
+      "backToCases": "Back to Cases"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "description": "About handling of personal information",
+    "subtitle": "PRIVACY POLICY",
+    "lastUpdated": "Last Updated",
+    "intro": "Sample Company (hereinafter referred to as \"the Company\") recognizes the importance of protecting customer personal information, complies with the Personal Information Protection Law, and strives for proper handling and protection in accordance with this Privacy Policy.",
+    "sections": {
+      "collection": {
+        "title": "1. Collection of Personal Information",
+        "content": "The Company collects personal information to the extent necessary for the following purposes:\n・Response to inquiries\n・Provision of services\n・Contract fulfillment\n・Marketing activities"
+      },
+      "usage": {
+        "title": "2. Purpose of Use of Personal Information",
+        "content": "The Company uses collected personal information for the following purposes:\n・Response to customer inquiries\n・Provision and operation of services\n・Distribution of newsletters\n・Service improvement and development"
+      },
+      "thirdParty": {
+        "title": "3. Disclosure to Third Parties",
+        "content": "The Company will not provide personal information to third parties without customer consent, except when required by law."
+      },
+      "security": {
+        "title": "4. Security Measures",
+        "content": "The Company implements reasonable security measures against risks such as loss, destruction, alteration, and leakage of personal information, and strives for proper management."
+      },
+      "disclosure": {
+        "title": "5. Disclosure, Correction, Deletion",
+        "content": "Customers can request disclosure, correction, deletion, etc. of their personal information held by the Company. Please contact us via the inquiry form."
+      },
+      "contact": {
+        "title": "6. Contact",
+        "content": "For inquiries regarding the handling of personal information, please contact us via the inquiry form."
+      }
+    }
+  }
+}

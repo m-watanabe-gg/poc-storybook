@@ -1,0 +1,335 @@
+{
+  "common": {
+    "home": "ホーム",
+    "about": "私たちについて",
+    "services": "サービス",
+    "news": "ニュース",
+    "contact": "お問い合わせ",
+    "readMore": "続きを読む",
+    "submit": "送信",
+    "cancel": "キャンセル",
+    "close": "閉じる",
+    "loading": "読み込み中...",
+    "error": "エラーが発生しました",
+    "notFound": "ページが見つかりません"
+  },
+  "nav": {
+    "menu": "メニュー",
+    "languageSwitch": "Language"
+  },
+  "home": {
+    "title": "ホーム",
+    "description": "GrowGroupデザインシステムに基づいたスタイルガイド",
+    "hero": {
+      "title": "Next.jsスタイルガイド",
+      "subtitle": "モダンなWebサイト構築ソリューション"
+    },
+    "features": {
+      "title": "主な特徴",
+      "componentManagement": {
+        "title": "コンポーネント管理",
+        "description": "Storybookで全てのコンポーネントを管理。開発効率を大幅に向上させます。"
+      },
+      "multilingual": {
+        "title": "多言語対応",
+        "description": "next-intlによる完全な多言語サポート。グローバル展開も簡単に。"
+      },
+      "typescript": {
+        "title": "TypeScript完全対応",
+        "description": "型安全な開発環境。バグを未然に防ぎ、保守性を向上。"
+      },
+      "modernStack": {
+        "title": "モダンなスタック",
+        "description": "Next.js 16、React 19、Tailwind CSS v4の最新技術を採用。"
+      },
+      "fullstack": {
+        "title": "フルスタック対応",
+        "description": "Hono + Drizzle ORMでバックエンドAPIも統合。"
+      },
+      "quality": {
+        "title": "品質管理",
+        "description": "ESLint、Prettier、Lighthouse CIで高品質なコードを維持。"
+      }
+    },
+    "services": {
+      "title": "サービス",
+      "subtitle": "Service",
+      "viewAll": "サービス一覧を見る"
+    },
+    "news": {
+      "title": "お知らせ",
+      "subtitle": "News",
+      "viewAll": "ニュース一覧を見る"
+    },
+    "cases": {
+      "title": "導入事例",
+      "subtitle": "お客様の成功事例",
+      "viewAll": "事例一覧を見る"
+    },
+    "cta": {
+      "title": "今すぐ始めましょう",
+      "description": "モダンなWebサイト構築に必要な全てが揃っています。まずはコンポーネントをご覧ください。",
+      "components": "コンポーネント一覧",
+      "news": "ニュースを見る"
+    }
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "description": "お気軽にお問い合わせください",
+    "form": {
+      "name": "お名前",
+      "namePlaceholder": "山田 太郎",
+      "email": "メールアドレス",
+      "emailPlaceholder": "example@example.com",
+      "subject": "件名",
+      "subjectPlaceholder": "お問い合わせ内容",
+      "message": "メッセージ",
+      "messagePlaceholder": "お問い合わせ内容をご記入ください",
+      "submit": "送信する",
+      "success": "お問い合わせを受け付けました",
+      "error": "送信に失敗しました"
+    },
+    "validation": {
+      "nameRequired": "お名前を入力してください",
+      "emailRequired": "メールアドレスを入力してください",
+      "emailInvalid": "有効なメールアドレスを入力してください",
+      "subjectRequired": "件名を入力してください",
+      "messageRequired": "メッセージを入力してください"
+    },
+    "info": {
+      "phone": {
+        "title": "電話",
+        "value": "03-1234-5678"
+      },
+      "email": {
+        "title": "メール",
+        "value": "info@example.com"
+      },
+      "address": {
+        "title": "住所",
+        "value": "〒100-0001 東京都千代田区千代田1-1-1"
+      }
+    }
+  },
+  "news": {
+    "title": "ニュース",
+    "description": "最新のニュースをお届けします",
+    "categories": "カテゴリー",
+    "publishedAt": "公開日",
+    "author": "著者",
+    "noArticles": "記事がありません",
+    "allCategories": "すべて",
+    "readMore": "続きを読む",
+    "breadcrumb": {
+      "home": "ホーム"
+    }
+  },
+  "footer": {
+    "home": "ホーム",
+    "copyright": "© 2025 株式会社サンプル All Rights Reserved.",
+    "privacyPolicy": "プライバシーポリシー",
+    "terms": "利用規約"
+  },
+  "about": {
+    "title": "私たちについて",
+    "description": "GrowGroupの理念と歴史",
+    "subtitle": "ABOUT US",
+    "overview": {
+      "title": "会社概要",
+      "companyName": "会社名",
+      "companyNameValue": "株式会社サンプル",
+      "established": "設立",
+      "establishedValue": "2010年4月1日",
+      "capital": "資本金",
+      "capitalValue": "1,000万円",
+      "ceo": "代表取締役",
+      "ceoValue": "山田 太郎",
+      "employees": "従業員数",
+      "employeesValue": "50名",
+      "address": "所在地",
+      "addressValue": "〒100-0001 東京都千代田区千代田1-1-1",
+      "business": "事業内容",
+      "businessValue": "Webサイト制作、システム開発、技術コンサルティング、UI/UXデザイン"
+    },
+    "history": {
+      "title": "会社の沿革",
+      "subtitle": "これまでの歩み",
+      "items": {
+        "2010": "東京都千代田区に株式会社サンプル設立",
+        "2012": "Webサイト制作事業を本格的に開始",
+        "2015": "大阪支社を開設",
+        "2018": "システム開発事業を開始",
+        "2020": "従業員数30名を突破",
+        "2022": "UI/UXデザイン部門を新設",
+        "2025": "従業員数50名を突破、新オフィスへ移転"
+      }
+    },
+    "mission": {
+      "title": "ミッション",
+      "content": "私たちは、革新的なテクノロジーとデザインの力で、お客様のビジネスを成長させることをミッションとしています。"
+    },
+    "vision": {
+      "title": "ビジョン",
+      "content": "デジタル技術を通じて、より良い社会の実現に貢献します。"
+    },
+    "values": {
+      "title": "バリュー",
+      "innovation": {
+        "title": "イノベーション",
+        "description": "常に新しい技術と方法論を探求し、最適なソリューションを提供します。"
+      },
+      "quality": {
+        "title": "品質へのこだわり",
+        "description": "細部にまでこだわり、高品質なプロダクトを作り上げます。"
+      },
+      "partnership": {
+        "title": "パートナーシップ",
+        "description": "お客様との信頼関係を大切にし、共に成長していきます。"
+      }
+    },
+    "team": {
+      "title": "チーム紹介",
+      "subtitle": "私たちのメンバー",
+      "description": "経験豊富なプロフェッショナルが、あなたのプロジェクトをサポートします。",
+      "members": {
+        "member1": {
+          "name": "山田 太郎",
+          "position": "代表取締役CEO",
+          "description": "Web業界15年の経験を持つ。技術とビジネスの両面からプロジェクトを推進。"
+        },
+        "member2": {
+          "name": "佐藤 花子",
+          "position": "CTO",
+          "description": "大手IT企業での開発経験を活かし、技術面をリード。"
+        },
+        "member3": {
+          "name": "鈴木 一郎",
+          "position": "デザイン統括",
+          "description": "ユーザー体験を第一に考えたデザインを提供。"
+        },
+        "member4": {
+          "name": "田中 美咲",
+          "position": "プロジェクトマネージャー",
+          "description": "円滑なプロジェクト進行をサポート。"
+        }
+      }
+    },
+    "office": {
+      "title": "オフィス",
+      "subtitle": "私たちの職場",
+      "description": "東京・千代田区の最新設備を備えたオフィスで、クリエイティブな環境を提供しています。",
+      "access": "アクセス",
+      "accessDescription": "東京メトロ千代田線 千代田駅 徒歩3分\nJR総武線 東京駅 徒歩10分"
+    },
+    "cta": {
+      "title": "一緒に始めましょう",
+      "description": "プロジェクトについてお気軽にご相談ください",
+      "contact": "お問い合わせ",
+      "services": "サービスを見る"
+    }
+  },
+  "services": {
+    "title": "サービス",
+    "description": "私たちが提供するサービス",
+    "subtitle": "SERVICES",
+    "webDevelopment": {
+      "title": "Webサイト制作",
+      "description": "モダンな技術を使用した高品質なWebサイトを制作します。レスポンシブデザイン、SEO対策、アクセシビリティに配慮した設計で、ユーザーに最高の体験を提供します。"
+    },
+    "systemDevelopment": {
+      "title": "システム開発",
+      "description": "業務効率化を実現するカスタムシステムを開発します。クラウドネイティブな設計で、スケーラブルで保守性の高いシステムを構築します。"
+    },
+    "consulting": {
+      "title": "技術コンサルティング",
+      "description": "DX推進、技術選定、アーキテクチャ設計など、技術面でのコンサルティングを提供します。貴社のビジネス課題に最適なソリューションをご提案します。"
+    },
+    "design": {
+      "title": "UIUXデザイン",
+      "description": "ユーザー中心のデザインで、使いやすく美しいインターフェースを設計します。ユーザー調査から、プロトタイピング、デザインシステム構築まで一貫してサポートします。"
+    }
+  },
+  "cases": {
+    "title": "導入事例",
+    "description": "お客様の成功事例をご紹介します",
+    "subtitle": "CASE STUDIES",
+    "filters": {
+      "industry": "業種",
+      "product": "導入製品",
+      "challenge": "課題"
+    },
+    "industries": {
+      "broadcasting": "放送・映像",
+      "manufacturing": "製造業",
+      "service": "サービス業",
+      "retail": "小売",
+      "finance": "金融業",
+      "education": "教育",
+      "it": "IT",
+      "healthcare": "医療",
+      "logistics": "物流"
+    },
+    "products": {
+      "systemA": "システムA",
+      "systemB": "システムB",
+      "systemC": "システムC"
+    },
+    "challenges": {
+      "costReduction": "コスト削減",
+      "efficiency": "業務効率化",
+      "quality": "品質向上",
+      "security": "セキュリティ強化"
+    },
+    "results": {
+      "showing": "件の事例を表示",
+      "noResults": "条件に一致する事例が見つかりませんでした",
+      "viewDetail": "詳細を見る"
+    },
+    "detail": {
+      "overview": "導入概要",
+      "company": "企業名",
+      "industry": "業種",
+      "challenge": "課題",
+      "solution": "導入製品・ソリューション",
+      "result": "効果",
+      "interview": "ユーザーインタビュー",
+      "gallery": "導入事例の写真",
+      "relatedCases": "関連する導入事例",
+      "viewAllCases": "事例一覧を見る",
+      "backToCases": "事例一覧に戻る"
+    }
+  },
+  "privacy": {
+    "title": "プライバシーポリシー",
+    "description": "個人情報の取り扱いについて",
+    "subtitle": "PRIVACY POLICY",
+    "lastUpdated": "最終更新日",
+    "intro": "株式会社サンプル（以下「当社」）は、お客様の個人情報保護の重要性について認識し、個人情報の保護に関する法律（以下「個人情報保護法」）を遵守すると共に、以下のプライバシーポリシー（以下「本ポリシー」）に従い、適切な取扱い及び保護に努めます。",
+    "sections": {
+      "collection": {
+        "title": "1. 個人情報の収集",
+        "content": "当社は、以下の目的のために必要な範囲で個人情報を収集します。\n・お問い合わせへの対応\n・サービスの提供\n・契約の履行\n・マーケティング活動"
+      },
+      "usage": {
+        "title": "2. 個人情報の利用目的",
+        "content": "当社は、収集した個人情報を以下の目的で利用します。\n・お客様からのお問い合わせへの対応\n・サービスの提供・運営\n・メールマガジンの配信\n・サービスの改善・開発"
+      },
+      "thirdParty": {
+        "title": "3. 第三者への提供",
+        "content": "当社は、お客様の同意なく、個人情報を第三者に提供することはありません。ただし、法令に基づく場合はこの限りではありません。"
+      },
+      "security": {
+        "title": "4. 安全管理措置",
+        "content": "当社は、個人情報の紛失、破壊、改ざん及び漏洩などのリスクに対して、合理的な安全対策を実施し、個人情報の適切な管理に努めます。"
+      },
+      "disclosure": {
+        "title": "5. 開示・訂正・削除",
+        "content": "お客様は、当社が保有する自己の個人情報について、開示、訂正、削除等を求めることができます。お問い合わせフォームよりご連絡ください。"
+      },
+      "contact": {
+        "title": "6. お問い合わせ",
+        "content": "個人情報の取扱いに関するお問い合わせは、お問い合わせフォームよりご連絡ください。"
+      }
+    }
+  }
+}

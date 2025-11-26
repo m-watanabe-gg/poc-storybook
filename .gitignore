@@ -39,3 +39,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# other
+repositories/
+*storybook.log
+storybook-static
+
+# markdown files
+*.md
+!README.md
